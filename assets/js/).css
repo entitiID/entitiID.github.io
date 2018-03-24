@@ -1,0 +1,716 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]> <html class="ie6" lang="en-US"> <![endif]-->
+<!--[if IE 7 ]>    <html class="ie7" lang="en-US"> <![endif]-->
+<!--[if IE 8 ]>    <html class="ie8" lang="en-US"> <![endif]-->
+<!--[if IE 9 ]>    <html class="ie9" lang="en-US"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html class="" lang="en-US"> <!--<![endif]-->
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CSS3 3D Download Button + PSD | AZMIND</title>
+	<link rel="profile" href="http://gmpg.org/xfn/11">
+	<link rel="pingback" href="../../../../../xmlrpc.php">
+
+    <!-- CSS -->
+    <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700'>
+    <link rel="stylesheet" href="../../../../../wp-content/themes/azmind-3/style.min.css">
+
+    <!_ HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!_ WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+	<!-- Favicon -->
+	<link rel="shortcut icon" href="../../../../../wp-content/themes/azmind-3/images/favicon.png">
+
+	
+<!-- All in One SEO Pack 2.3.8 by Michael Torbert of Semper Fi Web Design[473,597] -->
+<link rel="author" href="http://Azmind" />
+<meta name="description" itemprop="description" content="In this article we're going through the process of creating a 3D download button using CSS3. At the end of this tutorial you can also download the PSD file so" />
+
+<meta name="keywords" itemprop="keywords" content="3d button,3d download button,css3,css3 buttons,css3 tutorial,download buttons" />
+
+<link rel="canonical" href="http://azmind.com/2012/09/11/css3-3d-download-button-psd/" />
+<!-- /all in one seo pack -->
+<link rel="alternate" type="application/rss+xml" title="AZMIND - WordPress Themes, Bootstrap Templates &amp; Web Design Resources &raquo; CSS3 3D Download Button + PSD Comments Feed" href="http://azmind.com/2012/09/11/css3-3d-download-button-psd/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/azmind.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.5.3"}};
+			!function(a,b,c){function d(a){var c,d,e,f=b.createElement("canvas"),g=f.getContext&&f.getContext("2d"),h=String.fromCharCode;if(!g||!g.fillText)return!1;switch(g.textBaseline="top",g.font="600 32px Arial",a){case"flag":return g.fillText(h(55356,56806,55356,56826),0,0),f.toDataURL().length>3e3;case"diversity":return g.fillText(h(55356,57221),0,0),c=g.getImageData(16,16,1,1).data,d=c[0]+","+c[1]+","+c[2]+","+c[3],g.fillText(h(55356,57221,55356,57343),0,0),c=g.getImageData(16,16,1,1).data,e=c[0]+","+c[1]+","+c[2]+","+c[3],d!==e;case"simple":return g.fillText(h(55357,56835),0,0),0!==g.getImageData(16,16,1,1).data[0];case"unicode8":return g.fillText(h(55356,57135),0,0),0!==g.getImageData(16,16,1,1).data[0]}return!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i;for(i=Array("simple","flag","unicode8","diversity"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='edd-styles-css'  href='../../../../../wp-content/plugins/easy-digital-downloads/templates/edd_ver_2_6_5.min.css' type='text/css' media='all' />
+<script type='text/javascript' src='../../../../../wp-includes/js/jquery/jquery_ver_1_12_4.js'></script>
+<script type='text/javascript' src='../../../../../wp-includes/js/jquery/jquery_migrate_ver_1_4_1.min.js'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var edd_scripts = {"ajaxurl":"http:\/\/azmind.com\/wp-admin\/admin-ajax.php","position_in_cart":"","already_in_cart_message":"You have already added this item to your cart","empty_cart_message":"Your cart is empty","loading":"Loading","select_option":"Please select an option","ajax_loader":"\/wp-content\/plugins\/easy-digital-downloads\/assets\/images\/loading.gif","is_checkout":"0","default_gateway":"paypal","redirect_to_checkout":"0","checkout_page":"http:\/\/azmind.com\/checkout\/?nocache=true","permalinks":"1","quantities_enabled":"","taxes_enabled":"0"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='../../../../../wp-content/plugins/easy-digital-downloads/assets/js/edd_ajax_ver_2_6_5.min.js'></script>
+<link rel='https://api.w.org/' href='http://azmind.com/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="../../../../../xmlrpc_rsd.php" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://azmind.com/wp-includes/wlwmanifest.xml" /> 
+<link rel='prev' title='Rounded Transparent Notifications with CSS3 and jQuery' href='http://azmind.com/2012/08/10/rounded-transparent-notifications-with-css3-and-jquery/' />
+<link rel='next' title='Green Contact Form, PSD' href='http://azmind.com/2012/09/19/green-contact-form-psd/' />
+<meta name="generator" content="WordPress 4.5.3" />
+<link rel='shortlink' href='http://azmind.com/?p=835' />
+<link rel="alternate" type="application/json+oembed" href="http://azmind.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fazmind.com%2F2012%2F09%2F11%2Fcss3-3d-download-button-psd%2F" />
+<link rel="alternate" type="text/xml+oembed" href="http://azmind.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fazmind.com%2F2012%2F09%2F11%2Fcss3-3d-download-button-psd%2F&#038;format=xml" />
+	<style type='text/css'>
+	.download-info .download-button {
+		background-image: url(../../../../../wp-content/plugins/download-monitor/page-addon/downloadbutton.gif);
+	}
+	.download-info .more-button {
+		background-image: url(../../../../../wp-content/plugins/download-monitor/page-addon/morebutton.gif);
+	}
+	</style>
+<meta name="generator" content="Easy Digital Downloads v2.6.5" />
+<script data-cfasync="false" src="//load.sumome.com/" data-sumo-platform="wordpress" data-sumo-site-id="36cac7efcfb9c197135fc7b7e9ea47438d105b242448c9f7de9df9b8ee9a5e65" async></script><style type="text/css" id="syntaxhighlighteranchor"></style>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-20106025-7']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+</head>
+
+<body>
+	<div id="header">
+		<div class="header-top">
+			<div class="main-menu-container">
+				<div class="logo">
+											<h2><a href="http://azmind.com/">AZMIND &#8211; WordPress Themes, Bootstrap Templates &amp; Web Design Resources</a></h2>
+									</div>
+				<div class="pages-menu">
+					<a href="http://azmind.com/shop/" class="pages-menu-highlight">SHOP</a>
+					<a href="http://azmind.com/free-bootstrap-themes-templates/">FREE BOOTSTRAP THEMES</a>
+					<a href="http://azmind.com/design-deals/">DEALS</a>
+					<a href="http://azmind.com/support/">SUPPORT</a>
+					<a href="http://azmind.com/services/">SERVICES</a>
+					<a href="http://azmind.com/about/">ABOUT</a>
+					<a href="http://azmind.com/contact/">CONTACT</a>
+				</div>
+			</div>
+		</div>
+		<div class="header-bottom">
+		  			<div class="header-advertising">
+
+				<div class="h-adv-templates">
+
+					<div class="h-adv-title">
+						<h4>Featured Templates:</h4>
+					</div>
+					<div class="h-adv-box">
+						<a href="https://wrapbootstrap.com/theme/marco-multi-purpose-landing-page-WB0819XS2?ref=azmind" target="_blank" rel="nofollow">
+							<img src="../../../../../sidebar-img/marco-bootstrap-landing-page-3.jpg" title="Marco - Multi-purpose Landing Page" alt="Marco - Multi-purpose Landing Page">
+						</a>
+						<p>Marco - 15+ Landing Pages, 30+ Forms</p>
+					</div>
+					<div class="h-adv-box">
+						<a href="https://wrapbootstrap.com/theme/jesis-responsive-app-landing-page-WB085528N?ref=azmind" target="_blank" rel="nofollow">
+							<img src="../../../../../sidebar-img/jesis-bootstrap-app-landing-page.jpg" title="Jesis - Bootstrap App Landing Page" alt="Jesis - Bootstrap App Landing Page">
+						</a>
+						<p>Jesis - Mobile App Landing Page</p>
+					</div>
+					<div class="h-adv-box-divider"></div>
+					<div class="h-adv-box">
+						<a href="https://wrapbootstrap.com/theme/asia-one-page-theme-WB0430034?ref=azmind" target="_blank" rel="nofollow">
+							<img src="../../../../../sidebar-img/asia-bootstrap-one-page-theme-5.jpg" title="Asia - One Page Bootstrap Business Theme" alt="Asia - One Page Bootstrap Business Theme">
+						</a>
+						<p>Asia - One Page Business Theme</p>
+					</div>
+					<div class="h-adv-box">
+						<a href="http://wrapbootstrap.com/theme/mira-coming-soon-landing-page-WB03933J3?ref=azmind" target="_blank" rel="nofollow">
+							<img src="../../../../../sidebar-img/mira-bootstrap-coming-soon-landing-page.jpg" title="Mira - Coming Soon Landing Page" alt="Mira - Coming Soon Landing Page">
+						</a>
+						<p>Mira - Coming Soon Template</p>
+					</div>
+				</div>
+
+
+
+				<!--span class="ad-728">
+
+					<script async src="../../../../..//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+     style="display:inline-block;width:728px;height:90px"
+     data-ad-client="ca-pub-1202966698303102"
+     data-ad-slot="3779357455"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+				</span>
+				<span class="ad-250">
+
+					<script async src="../../../../..//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+     style="display:inline-block;width:250px;height:250px"
+     data-ad-client="ca-pub-1202966698303102"
+     data-ad-slot="4588360253"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+				</span-->
+			</div>
+		  		</div>
+	</div>
+	<div id="content">
+
+		<div id="posts">
+
+			
+				<div class="full-post" id="post-835"> 
+
+					<h1><a href="http://azmind.com/2012/09/11/css3-3d-download-button-psd/" rel="bookmark" title="Permanent Link to CSS3 3D Download Button + PSD">CSS3 3D Download Button + PSD</a></h1>
+					<div class="meta">
+						Published on: <span>Sep 11 2012</span> by <span>Anli</span>
+					</div><!--meta-->
+ 
+					<div class="full-post-content">
+						<p><img src="../../../../../wp-content/uploads/2012/09/CSS3-3D-Download-Button.jpg" alt="CSS3 3D Download Button" title="CSS3 3D Download Button" width="430" height="380" class="alignnone size-full wp-image-846" srcset="../../../../../wp-content/uploads/2012/09/CSS3-3D-Download-Button.jpg 430w, ../../../../../wp-content/uploads/2012/09/CSS3-3D-Download-Button-300x265.jpg 300w" sizes="(max-width: 430px) 100vw, 430px" /></p>
+<p>In this article we&#8217;re going through the process of creating a <strong>3D download button</strong> using CSS3. This button can be used in your websites, for example, when you want to share some resource with your visitors. At the end of this tutorial you can also download the PSD file so you can play with the colors or modify the button.
+<!-- Quick Adsense WordPress Plugin: http://quicksense.net/ -->
+<div style="float:none;margin:0px;">
+<br>
+<span class="ad-336">
+<script async src="../../../../..//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- azmind -->
+<ins class="adsbygoogle"
+style="display:inline-block;width:336px;height:280px"
+data-ad-client="ca-pub-1202966698303102"
+data-ad-slot="6943510254"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</span>
+
+<span class="ad-250">
+<script async src="../../../../..//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- azmind smartphones -->
+<ins class="adsbygoogle"
+style="display:inline-block;width:250px;height:250px"
+data-ad-client="ca-pub-1202966698303102"
+data-ad-slot="4588360253"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</span>
+</div>
+</p>
+<p><strong><a href="http://azmind.com/demo/3d-download-button-css3/" target="_blank">VIEW DEMO</a></strong></p>
+<h3>The HTML</h3>
+<p>The HTML is pretty simple. We have a div named <strong>&#8220;button&#8221;</strong> that contains our download button and a link named <strong>&#8220;blue&#8221;</strong>. The link will be our download button. I have added the &#8220;blue&#8221; class to the link so in the future we can create other buttons with different colors and style them separately.</p>
+<pre class="brush: xml; title: ; notranslate" title="">
+&lt;div class=&quot;button&quot;&gt;
+	&lt;a class=&quot;blue&quot; href=&quot;&quot;&gt;Download&lt;/a&gt;
+&lt;/div&gt;
+</pre>
+<h3>The CSS</h3>
+<p>Let&#8217;s style the button so it matches our PSD design.</p>
+<pre class="brush: css; title: ; notranslate" title="">
+a.blue {
+	display: block;
+	position: relative;
+	width: 155px;
+	height: 38px;
+	margin: 0 auto;
+	padding: 12px 0 0 65px;
+	background: url(../images/arrow.png) 25px center no-repeat; /* IE &lt; 9 */
+	background:
+		url(../images/arrow.png) 25px center no-repeat,
+		-webkit-gradient(linear, left top, left bottom, from(#bcdeeb), to(#7cbdd7));
+	background:
+		url(../images/arrow.png) 25px center no-repeat,
+		-webkit-linear-gradient(top, #bcdeeb, #7cbdd7);
+	background:
+		url(../images/arrow.png) 25px center no-repeat,
+		-moz-linear-gradient(top, #bcdeeb, #7cbdd7);
+	background:
+		url(../images/arrow.png) 25px center no-repeat,
+		-o-linear-gradient(top, #bcdeeb, #7cbdd7);
+	background:
+		url(../images/arrow.png) 25px center no-repeat,
+		-ms-linear-gradient(top, #bcdeeb, #7cbdd7);
+	background:
+		url(../images/arrow.png) 25px center no-repeat,
+		linear-gradient(to bottom, #bcdeeb, #7cbdd7);
+	background-color: #85c2da;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	-moz-box-shadow:
+		0 0px 3px 0 #fff inset,
+		0 -1px 0 0 rgba(255,255,255,.05) inset;
+	-webkit-box-shadow:
+		0 0px 3px 0 #fff inset,
+		0 -1px 0 0 rgba(255,255,255,.05) inset;
+	box-shadow:
+		0 0px 3px 0 #fff inset,
+		0 -1px 0 0 rgba(255,255,255,.05) inset;
+	font-family: 'Myriad Pro', Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	line-height: 24px;
+	color: #fff;
+	text-decoration: none;
+	text-shadow: 0 1px 1px rgba(0,0,0,.2);
+}
+</pre>
+<p>We have used the CSS3 properties <strong>&#8220;border-radius&#8221;</strong> for creating the rounded corners, <strong>&#8220;box-shadow&#8221;</strong> for creating a light white border and <strong>&#8220;text-shadow&#8221;</strong> for the &#8220;Download&#8221; text. Also we have used the <strong>CSS3 multiple backgrounds</strong> for adding the arrow icon and for creating a linear gradient from top to bottom.</p>
+<p>Our download button should look like this:</p>
+<p><img src="../../../../../wp-content/uploads/2012/09/3d-download-button-1.jpg" alt="3D Download Button 1" title="3D Download Button 1" width="430" height="140" class="alignnone size-full wp-image-838" srcset="../../../../../wp-content/uploads/2012/09/3d-download-button-1.jpg 430w, ../../../../../wp-content/uploads/2012/09/3d-download-button-1-300x97.jpg 300w" sizes="(max-width: 430px) 100vw, 430px" /></p>
+<h4>The &#8220;::before&#8221; and &#8220;::after&#8221; pseudo elements</h4>
+<p>Now we&#8217;ll use the CSS3 pseudo elements <strong>&#8220;::before&#8221;</strong> and <strong>&#8220;::after&#8221;</strong> for adding a gradient border and for creating the bottom part of the button that gives a 3D effect to it.</p>
+<pre class="brush: css; title: ; notranslate" title="">
+a.blue::before {
+	content: '';
+	position: absolute;
+	z-index: -1;
+	top: -1px;
+	right: -1px;
+	bottom: -1px;
+	left: -1px;
+	background-color: #3c8dac;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#85c2da), to(#3c8dac));
+	background-image: -webkit-linear-gradient(top, #85c2da, #3c8dac);
+	background-image: -moz-linear-gradient(top, #85c2da, #3c8dac);
+	background-image: -o-linear-gradient(top, #85c2da, #3c8dac);
+	background-image: -ms-linear-gradient(top, #85c2da, #3c8dac);
+	background-image: linear-gradient(to bottom, #85c2da, #3c8dac);
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+}
+</pre>
+<p>For creating the gradient border we&#8217;ve used the <strong>&#8220;linear-gradient&#8221;</strong> attribute and an absolute position for defining the size of the border (1px). Also we&#8217;ve used the <strong>&#8220;z-index&#8221;</strong> property for making the <strong>&#8220;::before&#8221;</strong> element appear under the button.</p>
+<p>Now our button looks like this:</p>
+<p><img src="../../../../../wp-content/uploads/2012/09/3d-download-button-2.jpg" alt="3D Download Button 2" title="3D Download Button 2" width="430" height="140" class="alignnone size-full wp-image-841" srcset="../../../../../wp-content/uploads/2012/09/3d-download-button-2.jpg 430w, ../../../../../wp-content/uploads/2012/09/3d-download-button-2-300x97.jpg 300w" sizes="(max-width: 430px) 100vw, 430px" /></p>
+<p>As we said above, for giving the 3D effect to our button we&#8217;ll use the <strong>&#8220;::after&#8221;</strong> pseudo element:</p>
+<pre class="brush: css; title: ; notranslate" title="">
+a.blue::after {
+	content: '';
+	position: absolute;
+	z-index: -2;
+	top: 8px;
+	right: -1px;
+	bottom: -8px;
+	left: -1px;
+	background: #579ab4;
+	border: 1px solid #4d89a0;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	-moz-box-shadow: 0 1px 2px 0 rgba(0,0,0,.3);
+	-webkit-box-shadow: 0 1px 2px 0 rgba(0,0,0,.3);
+	box-shadow: 0 1px 2px 0 rgba(0,0,0,.3);
+}
+</pre>
+<p>Here is our 3D button:</p>
+<p><img src="../../../../../wp-content/uploads/2012/09/3d-download-button-3.jpg" alt="3D Download Button 3" title="3D Download Button 3" width="430" height="140" class="alignnone size-full wp-image-842" srcset="../../../../../wp-content/uploads/2012/09/3d-download-button-3.jpg 430w, ../../../../../wp-content/uploads/2012/09/3d-download-button-3-300x97.jpg 300w" sizes="(max-width: 430px) 100vw, 430px" /></p>
+<h4>The &#8220;:hover&#8221; and &#8220;:active&#8221; states</h4>
+<p>Our button is almost ready. Now we&#8217;ll style the <strong>&#8220;:hover&#8221;</strong> and <strong>&#8220;:active&#8221;</strong> states so the button changes its look when the user hovers over it or clicks on it. Here is the CSS for these states:</p>
+<pre class="brush: css; title: ; notranslate" title="">
+a.blue:hover {
+	background: #85c2da url(../images/arrow.png) 25px center no-repeat;
+}
+
+a.blue:active {
+	top: 4px;
+}
+
+a.blue:active::after {
+	top: 4px;
+	bottom: -4px;
+}
+</pre>
+<p>As you can see, for the <strong>&#8220;:hover&#8221;</strong> state we&#8217;ve just removed the linear gradient while for the <strong>&#8220;:active&#8221;</strong> state we&#8217;ve changed the position to create a pressed button effect and make it look like a real button.</p>
+<p>Now our 3D download button is ready. Here is how it looks on the hover and active states:</p>
+<p><img src="../../../../../wp-content/uploads/2012/09/3d-download-button-4.jpg" alt="3D Download Button 4" title="3D Download Button 4" width="430" height="280" class="alignnone size-full wp-image-843" srcset="../../../../../wp-content/uploads/2012/09/3d-download-button-4.jpg 430w, ../../../../../wp-content/uploads/2012/09/3d-download-button-4-300x195.jpg 300w" sizes="(max-width: 430px) 100vw, 430px" /></p>
+<h3>Compatibility with Internet Explorer 7, 8 and 9</h3>
+<p>As we have seen in other tutorials here on Azmind, <strong>Internet Explorer 7 and 8</strong> don&#8217;t support the CSS3 properties and <strong>IE 9</strong> doesn&#8217;t support the <strong>&#8220;linear-gradient&#8221;</strong> property. In IE 7-8 the button will look like a simple blue rectangle. However, there are workarounds for using some of the CSS3 properties on these browsers that you can find on Google and try yourself. I&#8217;m not listing them here since this is a CSS3 only tutorial.</p>
+<h3>Conclusion</h3>
+<p>We have created a beautiful 3D download button using CSS3 that can be used on any page you like. The most important part of this tutorial is, in my opinion, the CSS3 pseudo elements&#8217; part. The <strong>&#8220;::before&#8221;</strong> and <strong>&#8220;::after&#8221;</strong> pseudo elements are very powerful since they let us add some extra style to the button without adding additional tags to our HTML.</p>
+<p>Below you can download the source files and a PSD file. Enjoy!</p>
+<h3>Demo, Download and License</h3>
+<p><strong><a href="http://azmind.com/demo/3d-download-button-css3/" target="_blank">VIEW DEMO</a></strong></p>
+<p><strong>DOWNLOAD FILE: <a class="downloadlink" href="../../../../../wp-content/plugins/download-monitor/download_id_44.php" title=" downloaded 1474 times" >CSS3 3D Download Button + PSD (1474)</a></strong></p>
+<p><strong>LICENSE:</strong></p>
+<p>You can use this CSS3 download button in personal and commercial projects, but you can't sell or redistribute it as is. If you want to publish it somewhere, please refer to this page.</p>
+
+<div style="font-size:0px;height:0px;line-height:0px;margin:0;padding:0;clear:both"></div>
+
+
+
+
+						<div class="email-optin">
+							<h3>Stay Updated</h3>
+							<p>Subscribe to the Azmind Newsletter and I&#8217;ll update you as soon as I release a new WordPress Theme, Bootstrap Template, Tutorial or other Freebie:</p>
+							<p><a class="subscribe-post" href="https://madmimi.com/signups/116010/join" target="_blank" rel="nofollow">Subscribe</a></p>
+						</div>
+						
+					</div>
+
+					<div class="full-post-pages"></div>
+
+					<div class="meta">
+						Filed under: <a href="http://azmind.com/category/css3-tutorials/" rel="category tag">CSS3 Tutorials</a>, <a href="http://azmind.com/category/free-buttons/" rel="category tag">Free Buttons</a>, <a href="http://azmind.com/category/web-design-resources/" rel="category tag">Web Design Resources</a> 					</div>
+
+					<div class="clearfix"></div>
+
+					<div id="comments-wrap">
+
+<!-- You can start editing here. -->
+<h3 id="comments-number">4 Comments So Far</h3>
+
+<ol class="commentlist">
+			<li class="comment even thread-even depth-1 parent" id="comment-48711">
+				<div id="div-comment-48711" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt='' src='http://0.gravatar.com/avatar/974066eb2787a01f4571cf9d79e9a519?s=48&#038;d=mm&#038;r=g' srcset='http://0.gravatar.com/avatar/974066eb2787a01f4571cf9d79e9a519?s=96&amp;d=mm&amp;r=g 2x' class='avatar avatar-48 photo' height='48' width='48' />			<cite class="fn"><a href='http://parsibanner.ir/' rel='external nofollow' class='url'>Pouya</a></cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="http://azmind.com/2012/09/11/css3-3d-download-button-psd/#comment-48711">
+			September 12, 2012 at 2:56 pm</a>		</div>
+
+		<p>Tahnk you very much! 😀</p>
+
+		
+				</div>
+		<ul class="children">
+		<li class="comment byuser comment-author-admin bypostauthor odd alt depth-2 parent" id="comment-48713">
+				<div id="div-comment-48713" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt='' src='http://1.gravatar.com/avatar/4a33d8bed8db3e31e503d6696d89e1b5?s=48&#038;d=mm&#038;r=g' srcset='http://1.gravatar.com/avatar/4a33d8bed8db3e31e503d6696d89e1b5?s=96&amp;d=mm&amp;r=g 2x' class='avatar avatar-48 photo' height='48' width='48' />			<cite class="fn"><a href='http://azmind.com' rel='external nofollow' class='url'>Anli</a></cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="http://azmind.com/2012/09/11/css3-3d-download-button-psd/#comment-48713">
+			September 12, 2012 at 5:04 pm</a>		</div>
+
+		<p>You&#8217;re welcome Pouya.</p>
+
+		
+				</div>
+		<ul class="children">
+		<li class="comment even depth-3" id="comment-470603">
+				<div id="div-comment-470603" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt='' src='http://1.gravatar.com/avatar/4b6d77a780223d5e619b5bdcab0a7072?s=48&#038;d=mm&#038;r=g' srcset='http://1.gravatar.com/avatar/4b6d77a780223d5e619b5bdcab0a7072?s=96&amp;d=mm&amp;r=g 2x' class='avatar avatar-48 photo' height='48' width='48' />			<cite class="fn">Nalin</cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="http://azmind.com/2012/09/11/css3-3d-download-button-psd/#comment-470603">
+			January 13, 2014 at 8:12 pm</a>		</div>
+
+		<p>Thank you for nice tut.</p>
+
+		
+				</div>
+		</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+		<li class="comment odd alt thread-odd thread-alt depth-1" id="comment-82256">
+				<div id="div-comment-82256" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt='' src='http://1.gravatar.com/avatar/aac4942351ec31147dac3f9f4797bcfb?s=48&#038;d=mm&#038;r=g' srcset='http://1.gravatar.com/avatar/aac4942351ec31147dac3f9f4797bcfb?s=96&amp;d=mm&amp;r=g 2x' class='avatar avatar-48 photo' height='48' width='48' />			<cite class="fn">sunny</cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="http://azmind.com/2012/09/11/css3-3d-download-button-psd/#comment-82256">
+			September 23, 2013 at 3:20 pm</a>		</div>
+
+		<p>hi<br />
+anli<br />
+ plz upload video tutorial</p>
+
+		
+				</div>
+		</li><!-- #comment-## -->
+</ol>
+
+	<div class="comments-navigation">
+		<div class="alignleft"></div>
+		<div class="alignright"></div>
+	</div>
+
+
+ 
+<p>Sorry, the comment form is closed at this time.</p>
+</div>
+
+				</div><!-- full-post -->
+
+				
+			
+		</div>
+
+
+
+<div id="sidebar">
+
+	<div class="search-form">
+		<form action="http://azmind.com/" method="get">
+			<input type="text" value="Search..." name="s" id="ls" class="searchfield" 
+				onfocus="if (this.value == 'Search...') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Search...';}">
+		</form>
+	</div>
+
+
+<div class="wp-themes">
+	<h2>Follow Azmind</h2>
+	<div class="wp-themes-wrap">
+		<a class="ultm ultm-facebook ultm-32 ultm-color-to-gray" href="http://www.facebook.com/pages/Azmindcom/196582707093191" target="_blank" rel="nofollow">FB</a>
+		<a class="ultm ultm-twitter ultm-32 ultm-color-to-gray" href="http://twitter.com/anli_zaimi" target="_blank" rel="nofollow">TW</a>
+		<a class="ultm ultm-google-plus-1 ultm-32 ultm-color-to-gray" href="https://plus.google.com/101131425868807087570?rel=author" target="_blank" rel="nofollow">G+</a>
+		<a class="ultm ultm-rss ultm-32 ultm-color-to-gray" href="http://feeds.feedburner.com/Azmind" target="_blank" rel="nofollow">RSS</a>
+	</div>
+</div>
+
+
+<div class="wp-themes">
+	<h2>Premium Resources - <a href="http://azmind.com/shop/">View All</a></h2>
+        <div class="wp-themes-wrap">
+		<div class="wp-themes-wrap-left">
+			<a href="https://wrapbootstrap.com/theme/marco-multi-purpose-landing-page-WB0819XS2?ref=azmind" target="_blank" rel="nofollow">
+				<img src="../../../../../sidebar-img/marco-bootstrap-landing-page-3.jpg" alt="Marco - Multi-purpose Landing Page">
+			</a>
+		</div>
+		<div class="wp-themes-wrap-right">
+			<h3>Marco - Multi-purpose Landing Page</h3>
+			<p>$15</p>
+		</div>
+	</div>
+	<div class="wp-themes-wrap">
+		<div class="wp-themes-wrap-left">
+			<a href="https://wrapbootstrap.com/theme/asia-one-page-theme-WB0430034?ref=azmind" target="_blank" rel="nofollow">
+				<img src="../../../../../sidebar-img/asia-bootstrap-one-page-theme-5.jpg" alt="Asia - One Page Bootstrap Business Theme">
+			</a>
+		</div>
+		<div class="wp-themes-wrap-right">
+			<h3>Asia - One Page Business Theme</h3>
+			<p>$13</p>
+		</div>
+	</div>
+	<div class="wp-themes-wrap">
+		<div class="wp-themes-wrap-left">
+			<a href="https://wrapbootstrap.com/theme/jesis-responsive-app-landing-page-WB085528N?ref=azmind" target="_blank" rel="nofollow">
+				<img src="../../../../../sidebar-img/jesis-bootstrap-app-landing-page.jpg" alt="Jesis - Bootstrap App Landing Page">
+			</a>
+		</div>
+		<div class="wp-themes-wrap-right">
+			<h3>Jesis - Bootstrap App Landing Page</h3>
+			<p>$13</p>
+		</div>
+	</div>
+</div>
+
+
+	<div class="wp-themes sidebar-subscribe">
+		<h2>Get Email Updates</h2>
+		<p class="sidebar-subscribe-text">
+			Subscribe to the Azmind Newsletter and I&#8217;ll update you when I release a 
+			new WordPress Theme, Bootstrap Template, Tutorial or Freebie:
+		</p>
+		<p class="sidebar-subscribe-text">
+			By subscribing you get this Bootstrap template and other resources available only to email subscribers:
+		</p>
+		<p class="sidebar-subscribe-text">
+			<a href="http://azmind.com/2015/01/10/lancar-bootstrap-one-page-agency-portfolio-free-template/"><img src="../../../../../free-bootstrap/Lancar-Bootstrap-One-Page-Agency-Portfolio-Free-Template-3.jpg" title="Lancar - One Page Agency/Portfolio Theme" alt="Lancar - One Page Agency/Portfolio Theme"></a>
+		</p>
+		<p><a class="subscribe-post" href="https://madmimi.com/signups/116010/join" target="_blank" rel="nofollow">Subscribe &amp; Download</a></p>
+	</div>
+
+
+	<ul class="sidebar-content">
+			<li id="recent-posts-3" class="widget widget_recent_entries">		<h2 class="widgettitle">Latest Posts</h2>
+		<ul>
+					<li>
+				<a href="http://azmind.com/2016/07/31/bootstrap-wizard-tutorial-new-step/">Bootstrap Wizard Tutorial: How To Add A New Step</a>
+						</li>
+					<li>
+				<a href="http://azmind.com/2016/07/19/bootstrap-login-register-template/">Bootstrap Login and Register Forms in One Page with Hide/Show Effect</a>
+						</li>
+					<li>
+				<a href="http://azmind.com/2016/05/30/bootstrap-wizard/">Bootstrap Wizard BootZard: A Free Template</a>
+						</li>
+					<li>
+				<a href="http://azmind.com/2016/05/20/bootstrap-newsletter-sign-up-template-nedy/">Free Template Nedy &#8211; Bootstrap Newsletter Sign-Up Landing Page</a>
+						</li>
+					<li>
+				<a href="http://azmind.com/2016/05/17/magazine-wordpress-themes/">15 Beautiful Magazine WordPress Themes</a>
+						</li>
+					<li>
+				<a href="http://azmind.com/2016/05/13/bootstrap-register-landing-page-regy/">Free Template Regy &#8211; Bootstrap Register Landing Page</a>
+						</li>
+					<li>
+				<a href="http://azmind.com/2016/05/10/education-wordpress-themes/">15+ Best Premium Education WordPress Themes</a>
+						</li>
+				</ul>
+		</li>
+		<li id="categories-428280711" class="widget widget_categories"><h2 class="widgettitle">Categories</h2>
+		<ul>
+	<li class="cat-item cat-item-3"><a href="http://azmind.com/category/about/" >About</a>
+</li>
+	<li class="cat-item cat-item-121"><a href="http://azmind.com/category/backgrounds/" >Backgrounds</a>
+</li>
+	<li class="cat-item cat-item-16"><a href="http://azmind.com/category/css/" >CSS</a>
+</li>
+	<li class="cat-item cat-item-219"><a href="http://azmind.com/category/css3-tutorials/" >CSS3 Tutorials</a>
+</li>
+	<li class="cat-item cat-item-413"><a href="http://azmind.com/category/deals/" >Deals</a>
+</li>
+	<li class="cat-item cat-item-131"><a href="http://azmind.com/category/decorations/" >Decorations</a>
+</li>
+	<li class="cat-item cat-item-85"><a href="http://azmind.com/category/free-buttons/" >Free Buttons</a>
+</li>
+	<li class="cat-item cat-item-107"><a href="http://azmind.com/category/free-cards/" >Free Cards</a>
+</li>
+	<li class="cat-item cat-item-28"><a href="http://azmind.com/category/free-fonts/" >Free Fonts</a>
+</li>
+	<li class="cat-item cat-item-37"><a href="http://azmind.com/category/free-icons/" >Free Icons</a>
+</li>
+	<li class="cat-item cat-item-11"><a href="http://azmind.com/category/free-wordpress-themes/" >Free WordPress Themes</a>
+</li>
+	<li class="cat-item cat-item-388"><a href="http://azmind.com/category/giveaways/" >Giveaways</a>
+</li>
+	<li class="cat-item cat-item-200"><a href="http://azmind.com/category/html/" >HTML</a>
+</li>
+	<li class="cat-item cat-item-202"><a href="http://azmind.com/category/htmlcss-tutorials/" >HTML/CSS Tutorials</a>
+</li>
+	<li class="cat-item cat-item-479"><a href="http://azmind.com/category/inspiration/" >Inspiration</a>
+</li>
+	<li class="cat-item cat-item-233"><a href="http://azmind.com/category/jquery/" >jQuery</a>
+</li>
+	<li class="cat-item cat-item-283"><a href="http://azmind.com/category/patterns/" >Patterns</a>
+</li>
+	<li class="cat-item cat-item-69"><a href="http://azmind.com/category/photoshop-tutorials/" >Photoshop Tutorials</a>
+</li>
+	<li class="cat-item cat-item-327"><a href="http://azmind.com/category/premium-2/" >Premium</a>
+</li>
+	<li class="cat-item cat-item-439"><a href="http://azmind.com/category/premium-wordpress-themes-2/" >Premium WordPress Themes</a>
+</li>
+	<li class="cat-item cat-item-462"><a href="http://azmind.com/category/quick-tutorials/" >Quick Tutorials</a>
+</li>
+	<li class="cat-item cat-item-284"><a href="http://azmind.com/category/roundups/" >Roundups</a>
+</li>
+	<li class="cat-item cat-item-55"><a href="http://azmind.com/category/seo/" >SEO</a>
+</li>
+	<li class="cat-item cat-item-150"><a href="http://azmind.com/category/stylized-text/" >Stylized Text</a>
+</li>
+	<li class="cat-item cat-item-457"><a href="http://azmind.com/category/template-updates/" >Template Updates</a>
+</li>
+	<li class="cat-item cat-item-201"><a href="http://azmind.com/category/templates/" >Templates</a>
+</li>
+	<li class="cat-item cat-item-509"><a href="http://azmind.com/category/tutorials/" >Tutorials</a>
+</li>
+	<li class="cat-item cat-item-29"><a href="http://azmind.com/category/typography/" >Typography</a>
+</li>
+	<li class="cat-item cat-item-391"><a href="http://azmind.com/category/ui-kits/" >UI Kits</a>
+</li>
+	<li class="cat-item cat-item-95"><a href="http://azmind.com/category/wallpapers/" >Wallpapers</a>
+</li>
+	<li class="cat-item cat-item-171"><a href="http://azmind.com/category/web-design-resources/" >Web Design Resources</a>
+</li>
+	<li class="cat-item cat-item-5"><a href="http://azmind.com/category/wordpress/" >WordPress</a>
+</li>
+	<li class="cat-item cat-item-15"><a href="http://azmind.com/category/wordpress-themes-updates/" >WordPress Themes Updates</a>
+</li>
+		</ul>
+</li>
+
+	<li>
+		<h2>Recommended</h2>
+		<div class="textwidget">
+						- <a href="http://www.shapesforphotoshop.com" title="Photoshop Shapes" target="_blank">Photoshop Shapes</a>
+		</div>
+	</li>
+
+	</ul>
+
+</div>
+
+		<div id="footer">
+
+			<div id="footer-credits">
+				<div class="footer-credits-left">
+					2016 | AZMIND - VAT/P.IVA IT11288420018
+				</div>
+				<div class="footer-credits-right">
+					<a href="http://azmind.com">Azmind.com</a> is powered by <a href="http://www.wordpress.org" target="_blank" rel="nofollow">WordPress</a>
+				</div>
+			</div>
+
+		</div> <!-- footer -->
+
+	</div> <!-- content -->
+
+	<script type='text/javascript' src='../../../../../wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/scripts/shCore_ver_3_0_9b.js'></script>
+<script type='text/javascript' src='../../../../../wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/scripts/shBrushXml_ver_3_0_9b.js'></script>
+<script type='text/javascript' src='../../../../../wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/scripts/shBrushCss_ver_3_0_9b.js'></script>
+<script type='text/javascript'>
+	(function(){
+		var corecss = document.createElement('link');
+		var themecss = document.createElement('link');
+		var corecssurl = "../../../../../wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/styles/shCore_ver_3_0_9b.css";
+		if ( corecss.setAttribute ) {
+				corecss.setAttribute( "rel", "stylesheet" );
+				corecss.setAttribute( "type", "text/css" );
+				corecss.setAttribute( "href", corecssurl );
+		} else {
+				corecss.rel = "stylesheet";
+				corecss.href = corecssurl;
+		}
+		document.getElementsByTagName("head")[0].insertBefore( corecss, document.getElementById("syntaxhighlighteranchor") );
+		var themecssurl = "../../../../../wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/styles/shThemeDefault_ver_3_0_9b.css";
+		if ( themecss.setAttribute ) {
+				themecss.setAttribute( "rel", "stylesheet" );
+				themecss.setAttribute( "type", "text/css" );
+				themecss.setAttribute( "href", themecssurl );
+		} else {
+				themecss.rel = "stylesheet";
+				themecss.href = themecssurl;
+		}
+		//document.getElementById("syntaxhighlighteranchor").appendChild(themecss);
+		document.getElementsByTagName("head")[0].insertBefore( themecss, document.getElementById("syntaxhighlighteranchor") );
+	})();
+	SyntaxHighlighter.config.strings.expandSource = '+ expand source';
+	SyntaxHighlighter.config.strings.help = '?';
+	SyntaxHighlighter.config.strings.alert = 'SyntaxHighlighter\n\n';
+	SyntaxHighlighter.config.strings.noBrush = 'Can\'t find brush for: ';
+	SyntaxHighlighter.config.strings.brushNotHtmlScript = 'Brush wasn\'t configured for html-script option: ';
+	SyntaxHighlighter.defaults['auto-links'] = false;
+	SyntaxHighlighter.defaults['pad-line-numbers'] = false;
+	SyntaxHighlighter.defaults['toolbar'] = false;
+	SyntaxHighlighter.all();
+</script>
+<script type='text/javascript' src='../../../../../wp-includes/js/wp_embed_ver_4_5_3.min.js'></script>
+	
+</body>
+</html>
+<!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
+
+Page Caching using disk: enhanced
+
+ Served from: azmind.com @ 2016-08-03 19:30:12 by W3 Total Cache -->
