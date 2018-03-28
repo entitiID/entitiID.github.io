@@ -194,7 +194,7 @@ jQuery(document).ready(function() {
 	    var post_title = $('.contact-form form').serialize();
 	    $.ajax({
 	        type: 'POST',
-	        url: 'https://www.enformed.io/54k15h7u',
+	        url: 'https://www.enformed.io/41aqa0at',
 	        data: $('.contact-form form').serialize(),
 	        dataType: 'json',
 	        success: function(json) {
