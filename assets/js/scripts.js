@@ -50,7 +50,7 @@ jQuery(document).ready(function() {
     */
     var now = new Date();
   //  var countTo = 25 * 24 * 60 * 60 * 1000 + now.valueOf();
-	var countTo = '2018/06/30';    
+	var countTo = '2019/01/07';    
     $('.timer').countdown(countTo, function(event) {
     	$(this).find('.days').text(event.offset.totalDays);
     	$(this).find('.hours').text(event.offset.hours);
